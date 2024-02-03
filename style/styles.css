@@ -1,0 +1,417 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Muli", sans-serif;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 30px;
+}
+.header__nav a {
+  color: #1f153482;
+  font-family: Muli;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 22.6px;
+}
+#bold {
+  color: #1f1534;
+  font-weight: bold;
+}
+
+/* main */
+.hero-container h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.sec-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.sarlavha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 60px;
+}
+.sarlavha h1 {
+  font-family: Muli;
+  font-size: 48px;
+  line-height: 56px;
+}
+.sarlavha p {
+  width: 445px;
+  font-size: 21px;
+  line-height: 32px;
+}
+.sec-ikki {
+  background-image: url(../img/rasm.png);
+  background-repeat: no-repeat;
+}
+
+.sarlavha-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.sec-ikki__bulimlar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-position: 0 -350px;
+  gap: 40px;
+}
+.sec-ikki__bulimlar_birinchi,
+.sec-ikki__bulimlar_ikkinchi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 40px;
+}
+.sec-ikki__bulimlar_birinchi {
+}
+.qator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 350px;
+  padding: 40px 30px;
+  gap: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 20px;
+}
+.qator h4 {
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.center-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.sec-uch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  gap: 280px;
+}
+.sec-uch__sarlavha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 35px;
+}
+.sec-uch__sarlavha p {
+  width: 450px;
+}
+.sec-uch__sarlavha h2 {
+  width: 480px;
+}
+
+.sec-turt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 280px;
+  padding-top: 150px;
+}
+.sec-turt__sarlavha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 35px;
+  padding-left: 50px;
+}
+
+.sec-besh {
+  margin-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #67c3f3;
+  border-radius: 24px;
+  padding: 80px 110px;
+}
+.sec-besh p {
+  color: #fff;
+}
+.sec-besh__tanishtiruv {
+}
+.tanishtiruv__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.tanishtiruv__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.tanishtiruv__title h2 {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.tanishtiruv__birinchi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tanishtiruv__birinchi h4 {
+  font-size: 22px;
+  line-height: 48px;
+  color: #fff;
+}
+.tanishtiruv__ikkinchi p {
+  width: 420px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.sec-olti {
+  padding: 200px 0;
+}
+.sec-olti__bulim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 80px;
+  background-image: url(../img/element\\(4\).png);
+}
+
+.nav-rasmi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.sec-olti__sarlavha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 40px;
+}
+.sec-olti__qator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.sec-olti__qator h4 {
+  width: 260px;
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.qator__matn {
+  padding: 30px;
+}
+.qator__matn p {
+  padding-bottom: 25px;
+}
+.qator__matn a {
+  margin-right: 10px;
+}
+/* ============== */
+
+/* FOOTER */
+footer {
+  background-color: #5a98f2;
+}
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 100px;
+  gap: 100px;
+}
+.footer__birinchi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+}
+.footer__ikkinchi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 150px;
+}
+.footer__ikkinchi h4 {
+  color: white;
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+}
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.ul a {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+}
+/* ============ */
